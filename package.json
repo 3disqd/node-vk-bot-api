@@ -4,6 +4,7 @@
   "description": "🤖 Vk bot framework for Node.js",
   "main": "lib/index.js",
   "scripts": {
+    "postinstall": "node lib/postinstall.js",
     "eslint": "eslint .",
     "eslint:fix": "eslint . --fix"
   },
